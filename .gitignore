@@ -1,3 +1,5 @@
+multi_thread
+x64/
 # Prerequisites
 *.d
 
