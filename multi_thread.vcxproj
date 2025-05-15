@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="multi_thread.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="condvariable_test.h" />
+    <ClInclude Include="future_test.h" />
+    <ClInclude Include="includeall.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

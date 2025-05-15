@@ -3,30 +3,10 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include"includeall.h"
 
-void worker() {
-    for (int i = 0; i < 5; ++i) {
-        std::cout << "子线程工作中: " << i << std::endl;
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-    }
-    std::cout << "子线程完成\n";
-}
-void test() {
-    std::thread t(worker);
-    t.detach();  // 主线程不再等待子线程
-}
-void test2(int& x) {
-    std::cout << x;
-}
 int main() {
-    test2(int(2));
-    while (true)
-    {
-
-    }
-    std::cout << "主线程即将结束\n";
-
-    std::cout << "主线程结束\n";
+	future_test3::test();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
