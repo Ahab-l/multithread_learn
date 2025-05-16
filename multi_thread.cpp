@@ -6,7 +6,7 @@
 #include"includeall.h"
 
 int main() {
-	future_test3::test();
+	future_test5::test();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
